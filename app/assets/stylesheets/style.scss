@@ -47,11 +47,11 @@ body {
   position: absolute;
   top: 120px;
   width: 100%;
-  
+
   min-height: 100%;
   background-color: $blue;
 }
-.fa{
+.fa {
   color: $blue;
 }
 /* ヘッダー ================================ */
@@ -61,7 +61,6 @@ header {
   z-index: 2;
   width: 100%;
   background-color: $gray;
- 
 }
 
 .header-menu {
@@ -69,12 +68,12 @@ header {
   top: 20px;
   color: $blue;
   right: 10px;
-  
+
   padding-right: 0px;
   color: $blue;
   font-size: 30px;
-  
-  li{
+
+  li {
     display: inline;
     color: $blue;
   }
@@ -82,58 +81,51 @@ header {
 
 .header-logo {
   text-align: left;
-  
+
   color: $blue;
   font-size: 45px;
-  
 
   a {
     color: $blue;
 
-  
     font-size: 32px;
   }
 }
-.stats{
+.stats {
   width: 100%;
   text-align: center;
   display: inline-block;
-  p{
-    
+  p {
     font-size: 25px;
     margin-top: 20px;
     font-weight: bold;
     color: $blue;
   }
-  table{
-    border-collapse:separate;
+  table {
+    border-collapse: separate;
     border-radius: 5px;
     text-align: center;
     display: inline-block;
     border-spacing: 5px;
     margin-bottom: 5%;
-    th{
+    th {
       border-radius: 5px;
       text-align: center;
       background-color: $blue;
       color: white;
-      border:solid 1px $blue;
+      border: solid 1px $blue;
     }
-    td{
+    td {
       padding: 10px 30px;
       background-color: #f2f2f2;
-      
     }
   }
-
-  
 }
 
-.date{
+.date {
   width: 100%;
   text-align: center;
   display: inline-block;
-
 }
 .top-main {
   padding: 100px 0px 10px;
@@ -145,8 +137,7 @@ header {
   height: auto;
   min-height: 100%;
   color: $blue;
- 
-  
+
   background-color: $gray;
 
   h1 {
@@ -173,16 +164,16 @@ header {
     font-weight: bold;
     margin-top: 60px;
   }
-  .clock{
+  .clock {
     color: $white;
     background-color: $black;
     padding: 20px;
     font-size: 30px;
     font-weight: bold;
-    border: 4px $white  solid;
+    border: 4px $white solid;
   }
 }
-.top-menu{
+.top-menu {
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -196,7 +187,6 @@ header {
     padding: 0px 0px;
   }
   li {
-    
     width: 100%;
   }
 }
@@ -211,27 +201,25 @@ header {
   @media (max-width: 1024px) {
     margin-top: 80px;
   }
-  table{
+  table {
     font-size: 20px;
-    border-collapse:separate;
+    border-collapse: separate;
     border-radius: 5px;
     text-align: center;
     display: inline-block;
     border-spacing: 5px;
     margin-bottom: 5%;
     margin-top: 5%;
-    th{
-      
+    th {
       border-radius: 5px;
       text-align: center;
       background-color: $blue;
       color: white;
-      border:solid 1px $blue;
+      border: solid 1px $blue;
     }
-    td{
+    td {
       padding: 10px 30px;
       background-color: #ffffff;
-      
     }
   }
   ul {
@@ -240,33 +228,31 @@ header {
   li {
     display: flexbox;
   }
-  
-  .content{
+
+  .content {
     width: 100%;
     display: inline-block;
-    
   }
-  
-  .Log{
+
+  .Log {
     position: relative;
-  
-    td{
+
+    td {
       text-align: center;
       font-size: 16px;
       border-bottom: 1px #888 solid;
     }
   }
 
-  .menu{
+  .menu {
     position: relative;
-    
-    padding: 20px 40px ;
+
+    padding: 20px 40px;
     margin: 20px 20px;
     border-left: 4px $blue solid;
     text-align: center;
   }
   .idle {
-   
     ul {
       width: 100%;
     }
@@ -275,7 +261,6 @@ header {
     }
   }
   .over {
-    
     font-size: 28px;
   }
 }
@@ -331,7 +316,7 @@ header {
   @media (max-width: 1024px) {
     max-width: 300px;
   }
-  
+
   margin: 0 auto;
   background-color: $white;
   box-shadow: 0 2px 6px #c1ced7;
@@ -403,7 +388,7 @@ header {
 }
 .error {
   color: #ff4d75;
-  
+
   z-index: 100;
 }
 .date {
@@ -418,7 +403,7 @@ header {
     font-weight: bold;
     color: $blue;
   }
-  .right_w{
+  .right_w {
     text-align: right;
     width: 50px;
     padding: 5px;
@@ -427,7 +412,7 @@ header {
     border: 1px #c4c4c4 solid;
     background-color: #ffffff;
   }
-  .id_form{
+  .id_form {
     width: 40px;
     padding: 5px;
     font-size: 20px;
@@ -435,7 +420,7 @@ header {
     border: 1px #bdbdbd solid;
     background-color: #ffffff;
   }
-  .btn_search{
+  .btn_search {
     color: $white;
     background-color: $blue;
     font-size: 20px;
@@ -448,31 +433,29 @@ header {
 .userlist {
   font-size: 24px;
   text-align: center;
-  p{
+  p {
     font-size: 18px;
   }
-  table{
-    border-collapse:separate;
+  table {
+    border-collapse: separate;
     border-radius: 5px;
     text-align: center;
     display: inline-block;
     border-spacing: 5px;
     margin-bottom: 5%;
-    th{
-      padding: 10px 20px ;
+    th {
+      padding: 10px 20px;
       border-radius: 5px;
       text-align: center;
       background-color: $blue;
       color: white;
-      border:solid 1px $blue;
+      border: solid 1px $blue;
     }
-    td{
+    td {
       padding: 10px 30px;
       background-color: #f2f2f2;
-      
     }
   }
-  
 }
 .flash {
   position: fixed;

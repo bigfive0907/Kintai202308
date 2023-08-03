@@ -12,7 +12,6 @@ class StatisticsController < ApplicationController
       if @year && @year != 0
         if @month && @month != 0
           @stats = Statistic.where(name: @user.name, year: @year, month: @month)
-          
         end
       else
         @stats = Statistic.where(name: @user.name)

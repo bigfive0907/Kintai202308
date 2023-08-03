@@ -31,7 +31,8 @@ class ManagerController < ApplicationController
     end
 
   end
-
+  
+  #新規managerの登録
   def create
     @manager = Manager.new(name:params[:name],email:params[:email],password:params[:password])
     
@@ -50,6 +51,7 @@ class ManagerController < ApplicationController
     end
   end
 
+  #managerとしてログイン
   def login_manager
     @manager = Manager.find_by(email: params[:email])
     if @manager && @manager.authenticate(params[:password])
