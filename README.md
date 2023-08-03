@@ -1,6 +1,6 @@
 
 # --勤怠管理アプリ README--
-https://kintai-chiba2023.herokuapp.com
+https://kintai0803-7d551290b90c.herokuapp.com
 
 上のリンクで現在公開しています。
 
@@ -33,14 +33,14 @@ https://kintai-chiba2023.herokuapp.com
 ### 従業員
 
 名前: Test  
-email: test@mail  
+email: test@email  
 password: testpass
 
 --------------------------------------------------------------
 ### 管理者(従業員と同様の情報でログインできます)
 
 名前: Test  
-email: test@mail  
+email: test@email  
 password: testpass
 
 --------------------------------------------------------------
